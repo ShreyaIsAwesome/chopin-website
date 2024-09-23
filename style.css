@@ -1,0 +1,49 @@
+/* body style */
+body {
+    background: linear-gradient(#C0C0C0, white);
+    font-family: Poppins;
+    text-align: center;
+}
+
+/* these are my CSS special selectors */
+#navbar a {
+    color: black;
+    padding: 5%;
+}
+
+div > h1 {
+    font-size: 4em
+}
+
+#intro ~ .iFrames > iframe {
+    border: grey 8px solid;
+    margin: 3vw;
+}
+
+/* these are my class styles */
+.extra_info {
+    background-color: #E0E0E0;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.font_size {
+    font-size: .75em;
+}
+
+/* these are my id style selectors*/
+#navbar_div {
+    border: 1px solid;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 25px;
+    background-color: #E0E0E0;
+}
